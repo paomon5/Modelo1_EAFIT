@@ -11,7 +11,7 @@ add_selectbox = st.sidebar.selectbox(' ', ('Pagina principal', 'Modelo Batch', '
 if add_selectbox == 'Pagina principal':
     st.image('cliente.png')
     st.title('Modelo de predicción de valor de cliente')
-    st.text('Este modelo determina el valor de un cliente a partir de algunas caracteristicas observada')
+    st.markdown('Este modelo determina el valor de un cliente a partir de algunas caracteristicas observada')
 
 
 if add_selectbox == 'Modelo Batch':
